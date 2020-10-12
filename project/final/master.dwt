@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<!-- #BeginEditable "doctitle" -->
+<title></title>
+<!-- #EndEditable -->
+<link href="styles/style1.css" media="screen" rel="stylesheet" title="CSS" type="text/css" />
+<style type="text/css">
+.auto-style2 {
+	text-align: right;
+	font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.auto-style3 {
+	text-align: center;
+}
+</style>
+</head>
+
+<body>
+
+<!-- Begin Container -->
+<div id="container">
+	<!-- Begin Masthead -->
+	<div id="masthead">
+		<h1>
+		Zoocasa<img alt="logo" height="58" src="images/5c62ca62a928aba617433c4c_Retail%20Magic%20Instant%20mix_mobiili.png" width="101" style="float: right" /></h1>
+		<h3 class="auto-style3">Real estate agency</h3>
+	</div>
+	<!-- End Masthead -->
+	<!-- Begin Navigation -->
+	<div id="navigation" style="left: 0px; top: 0px; height: 115px;">
+		<ul>
+			<li><a href="home.html">Home</a></li>
+			<li><a href="for_rent.html">For rent</a></li>
+			<li><a href="for_sale.html">For sale</a></li>
+			<li><a href="contact.html">Contact</a></li> <!--contact form-->
+      		<li><a href="sitemap.html">Sitemap</a></li> <!--and include list of websites that have been used for graphics and properties information-->
+	 	</ul>
+	</div>
+	<!-- End Navigation -->
+	<!-- Begin Content -->
+	<div id="content">
+		<!-- #BeginEditable "content" -->
+		<h2>About us</h2>
+		<h4 style="border-style: none; border-color: inherit; border-width: 0px; box-sizing: inherit; padding: 1.5em 1em 0px; margin: 0px auto 2em; vertical-align: baseline; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-weight: 300; font-stretch: inherit; font-size: 20px; line-height: 1.4em; font-family: proxima-nova, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; max-width: 30em; color: rgb(47, 50, 59); letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial;" class="auto-style1">
+		We marry the ease and intelligence of technology with a full service 
+		real estate team, to create a seamless experience.&nbsp;</h4>
+		<p class="auto-style2">
+		<img alt="ceo" height="400" src="images/1309174.jpg" style="float: left" width="300" />Lauren 
+		Haw<br />
+		CEO &amp; Broker of Record</p>
+		<!-- #EndEditable "content" --></div>
+	<!-- End Content -->
+	<!-- Begin Footer -->
+	<div id="footer">
+		<p><a href="home.html">Home</a> | 
+		<a href="for_rent.html">For rent</a> |
+		<a href="for_sale.html">For sale</a> |
+		<a href="contact.html">Contact</a> |
+		<a href="sitemap.html">Sitemap</a></p>
+	</div>
+<footer>
+	<p id="Copyright">&copy;&nbsp;Copyright Tereza Konstari, COMP213, Term project</p>
+</footer>
+
+	<!-- End Footer --></div>
+<!-- End Container -->
+
+</body>
+
+</html>
