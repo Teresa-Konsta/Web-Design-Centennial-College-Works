@@ -1,0 +1,27 @@
+﻿body {
+	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+	font-size: medium;
+	font-style: normal;
+	color: #141414;
+	width: 980px;
+	background-color: #E0E0E0;
+}
+a {
+	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+	text-decoration: none;
+	color: #000000;
+}
+a:hover {
+	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+	text-decoration: underline overline;
+}
+ul {
+	font-family: "Courier New", Courier, monospace;
+	font-size: small;
+	color: #0D0D0D;
+}
+li {
+	font-family: "Courier New", Courier, monospace;
+	font-size: small;
+	color: #0D0D0D;
+}
