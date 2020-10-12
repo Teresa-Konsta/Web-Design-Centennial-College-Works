@@ -1,0 +1,148 @@
+﻿<!DOCTYPE html>
+<!--Created by Tereza Konstari, created on November 12, 2019 -->
+<html lang="en">
+
+<head>
+<meta content="en-us" http-equiv="Content-Language">
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<title>assignment 4</title>
+<link href="assignment_4_style.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+.auto-style3 {
+	border-width: 0px;
+}
+</style>
+</head>
+
+<body>
+<div id="AllPage">
+<header>
+<h1 class="auto-style1"><a href="https://www.centennialcollege.ca/">
+<img alt="logo" class="auto-style3" height="111" src="centennial%20college.png" width="529"></a></h1>
+</header>
+
+<main>
+<h3 class="auto-style1">Continuing Education Courses / Instructor Evaluation</h3>
+	<p class="auto-style1">Please read each statement carefully and consider each one individually.<br>Use the <strong>computer</strong> to make your choice (use pencil to fill in 
+	the space).<br>Give only <strong>one answer</strong> for each question.</p>
+<form action="mailto:continuingeducation@centennialcollege.ca" method="post" id="allPage">
+    <label style="width: 163px">Course Name/Code:</label>
+		<select name="Select1" style="width: 300px; height: 53px" size="3" tabindex="1" required="required">
+	<option value="COMP122">COMP122 Introduction to Database Concepts</option>
+	<option value="COMP123">COMP123 Programming 2</option>
+	<option value="COMP125">COMP125 Client-Side Development</option>
+	<option value="MATH185">MATH185 Discrete Math</option>
+	<option value="COMP225">COMP225 Software Engineering Methodologies 1</option>
+	<option value="COMP301">COMP301 Unix/Linux OS</option>
+		</select><br>
+	<label style="width: 163px">Semester:</label>
+	<select name="Select2" style="width: 170px; size="1" tabindex="3">
+	<option>Autumn</option>
+	<option>Winter</option>
+	<option>Summer</option></select><br>
+	<label style="width: 163px">Year</label>
+	<select name="Select3" style="width: 56px" tabindex="4">
+	<option selected="">2020</option>
+	<option>2021</option></select><br>
+<fieldset>
+	<legend class="auto-style2"><strong><em>Instructor</em></strong></legend><br>
+	<em>How do you rate the instructor's:</em><br>
+	<label>1. <strong>knowledge</strong> of subject?</label><br><input checked="checked" name="optKnowledge" tabindex="5" type="radio" value="a1">(a) 
+	Excellent <input name="optKnowledge" tabindex="5" type="radio" value="b1">(b) 
+	Good <input name="optKnowledge" tabindex="7" type="radio" value="c1">(c) 
+	Fair <input name="optKnowledge" type="radio" value="d1" tabindex="9"> (d) 
+	Not satisfactory<br>
+	<label>2. <strong>helpfulness</strong>?</label><br>
+	<input checked="checked" name="optHelpfulness" tabindex="11" type="radio" value="a2">(a) 
+	Excellent <input name="optHelpfulness" tabindex="13" type="radio" value="b2">(b) 
+	Good <input name="optHelpfulness" tabindex="15" type="radio" value="c2">(c) 
+	Fair <input name="optHelpfulness" tabindex="17" type="radio" value="d2"> (d) 
+	Not satisfactory<br>
+	<label>3. <strong>communication</strong> skills?</label><br>
+	<input checked="checked" name="optCommunication" tabindex="19" type="radio" value="a3">(a) 
+	Excellent
+	<input name="optCommunication" tabindex="21" type="radio" value="b3">(b) 
+	Good <input name="optCommunication" tabindex="23" type="radio" value="c3">(c) 
+	Fair <input name="optCommunication" tabindex="25" type="radio" value="d3"> 
+	(d) Not satisfactory<br>
+	<label>4. <strong>overall</strong> performance?</label><br>
+	<input checked="checked" name="optOverall" tabindex="27" type="radio" value="a4">(a) 
+	Excellent <input name="optOverall" tabindex="29" type="radio" value="b4">(b) 
+	Good <input name="optOverall" tabindex="31" type="radio" value="c4">(c) Fair
+	<input name="optOverall" tabindex="33" type="radio" value="d4"> (d) Not 
+	satisfactory<br>
+	<label>5. <strong>courtesy and respect </strong>for all students?</label><br>
+	<input checked="checked" name="optRespect" tabindex="35" type="radio" value="a5">(a) 
+	Excellent <input name="optRespect" tabindex="37" type="radio" value="b5">(b) 
+	Good <input name="optRespect" tabindex="39" type="radio" value="c5">(c) Fair
+	<input name="optRespect" tabindex="41" type="radio" value="d5"> (d) Not 
+	satisfactory<br>
+</fieldset>
+<fieldset>
+	<legend class="auto-style2"><strong><em>Course</em></strong></legend><br>
+	<label>6. How would you rate <strong>course materials</strong>?</label><br>
+	<input checked="checked" name="optMaterials" tabindex="43" type="radio" value="a6">(a) 
+	Excellent <input name="optMaterials" tabindex="45" type="radio" value="b6">(b) 
+	Good <input name="optMaterials" tabindex="47" type="radio" value="c6">(c) 
+	Fair <input name="optMaterials" tabindex="49" type="radio" value="d6"> (d) 
+	Not satisfactory<br>
+	<label style="width: 381px">7. How much did this course meet your <strong>
+	expectations</strong>?</label><br>
+	<input checked="checked" name="optExpectation" tabindex="51" type="radio" value="a7">(a) 
+	Excellent <input name="optExpectation" tabindex="53" type="radio" value="b7">(b) 
+	Good <input name="optExpectation" tabindex="55" type="radio" value="c7">(c) 
+	Fair <input name="optExpectation" tabindex="57" type="radio" value="d7"> (d) 
+	Not satisfactory<br>
+	<label>8. How would you rate this course (<strong>overall</strong>)?</label><br>
+	<input checked="checked" name="optOverallCourse" tabindex="59" type="radio" value="a8">(a) 
+	Excellent
+	<input name="optOverallCourse" tabindex="61" type="radio" value="b8">(b) 
+	Good <input name="optOverallCourse" tabindex="65" type="radio" value="c8">(c) 
+	Fair <input name="optOverallCourse" tabindex="67" type="radio" value="d8"> 
+	(d) Not satisfactory<br>
+</fieldset>
+<fieldset>
+	 <legend class="auto-style2"><strong><em>General information</em></strong></legend><br>
+	<label style="width: 550px">9. Was the <strong>course outline</strong> reviewed/explained at the beginning of the course?</label><br>
+	<input checked="checked" name="optOutline" tabindex="69" type="radio" value="yes">Yes
+	<input name="optOutline" tabindex="71" type="radio" value="no">No
+	<input name="optOutline" tabindex="73" type="radio" value="n/a">Not sure<br>
+	<label style="width: 527px">10. Would you <strong>recommend</strong> this course to a friend with the 
+	same interests?</label><br>
+	<input checked="checked" name="optRecommend" tabindex="75" type="radio" value="yes">Yes
+	<input name="optRecommend" tabindex="77" type="radio" value="no">No
+	<input name="optRecommend" tabindex="79" type="radio" value="n/a">Not sure<br>
+</fieldset>
+<fieldset>
+    <legend class="auto-style2"><em><strong>Any other comments (please use the back of the computer card or this paper 
+	if necessary)</strong></em></legend><br>
+	<label>11. What is the <strong>best thing</strong> about this 
+	course?</label>
+	<textarea cols="40" name="txtSpecialRequest" rows="5" tabindex="81" placeholder="---Please leave us your comment---"></textarea><br>
+	<label>12. How could we <strong>improve</strong> this course?</label>
+	<textarea cols="40" name="txtSpecialRequest" rows="5" tabindex="83" placeholder="---Please leave us your comment---"></textarea><br>
+	<label>13. Other:</label>
+	<textarea cols="40" name="TextArea3" rows="5" tabindex="85" placeholder="---Please leave us your comment---"></textarea><br>
+	<label><input name="Clear form" style="width: 120px; height: 30px" tabindex="87" type="reset" value="Clear form"></label>
+	<label><input name="Send form" style="width: 120px; height: 30px" tabindex="89" type="submit" value="Send feedback"></label><br>
+	<br>
+</fieldset>
+	</form>
+	<div class="auto-style1">
+		<h5><em>Thank you! We pay attention to your feedback!</em><br>Web:
+	<a href="http://www.centennialcollege.ca/continuing_education">
+	http://www.centennialcollege.ca/continuing_education</a> 
+	E-mail: 
+	<a href="mailto:continuingeducation@centennialcollege.ca?subject=feedback">continuingeducation@centennialcollege.ca</a></h5>
+	</div>
+</div>
+</main>
+
+<footer>
+<p id="copyright" class="auto-style1">&copy;&nbsp; Copyright Tereza Konstari, assignment 4, COMP213</p>
+</footer>
+
+</div>
+</body>
+
+</html>
